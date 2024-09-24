@@ -1,2 +1,12 @@
-Stuff go here.
-More stuff.
+p1_studio 29 - The Legend of Zelda: DESIGN.txt
+
+Custom Mechanic: Our custom mechanic is a reduction to the homing property of the player's boomerang weapon. This allows the player to move their character out of the way of a returning boomerang, causing the boomerang to form an orbit around the player. This orbit can be adjusted with further character movement to perform a variety of boomerang arcs not possible in the classic game.
+
+Custom Level: Our custom level is crafted to showing off the added potential of the orbiting boomerang weapon. Floating crystal targets and enemies lie diagonally to the player or are out of the range of the regular boomerang arc, but the player can move to create an orbit with the custom boomerang that can hit these previously inaccessible targets.
+
+Interesting Decisions: Our custom mechanic/level encourages interesting choices by tying the player character's movement to their only weapon. Attacking enemies in our custom level (most of which are always out of reach of a regular boomerang throw) is no longer a simple button press; the players need to move to generate a boomerang orbit that intersects with enemies. The potential depth to this mechanic is shown when later levels ask the player to use their movement to guide the boomerang, avoid solid obstacles, and dodge enemy projectiles all at once.
+
+Explaining the Custom Mechanic: An introductory cutscene sequence explains the loss of link's previous weapons. As our custom mechanic relies upon the player moving after throwing the boomerang, we summon a piston to forcefully push the player when they first throw the boomerang; so all players will see the resultant boomerang orbit, regardless of their (lack of) follow-up movement inputs. We then use a set of basic puzzles where the player learns their boomerang can be used to hit diagonal or far away targets in a safe environment, before requiring these same abilities to be tested against dangerous enemies.
+
+Oliver Pardi (pardio)'s Portfolio: https://pardio1.github.io/
+Zheng Luo (louz)'s Portfolio:
