@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>TAG Overview</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="title">TAG: Tag Analysis Generator</a>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="#" class="active">Overview</a></li>
+						<li><a href="TODO.html">Code</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h1 class="major">TAG</h1>
+                                <div class="box alt">
+										<div class="row gtr-uniform">
+											<div class="col-4"><span class="image fit"><img src="images/tag/text_1.png" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src="images/tag/text_2.png" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src="images/tag/dataviz.jpg" alt="" /></span></div>
+										</div>
+									</div>
+							<h4>Overview</h4>
+							<p>TAG is a performant Python/SQLite data processor that facilitates speedy analysis of tag-based data.</p>
+<p>This demo version of TAG is designed for a public dataset of several million scraped StackExchange questions (availibe here--link)).</p>
+							<p>Input a list of tags (a query) and TAG will produce text and image files with pre-processed data ready for analysis.</p>
+<p>TAG utilizes an inverted index (among other caches) to perform fast lookups and an algorithim based on TF-IDF to quickly find similar tags/queries.</p>
+							<p>See the public GitHub repository for help setting up and running the program (link).</p>
+							<span class="image left"><video muted autoplay loop width="500" src="images/tag/tag_graph.mp4" type="video/mp4"/></span><h4>Obsidian Graph View</h4>
+											<ul>
+												<li>See connections between tags</li>
+												<li>Spot regions shared by nearby tags</li>
+												<li>Investigate notes of interest</li>
+												<li>Utilize Obsidian's search filters</li>
+											</ul></br></br></br></br>
+
+							<p><span class="image left"><img src="images/tag/scatterplot.png" alt="" /></span><h4>MatPlotLib Charts</h4>See how the query stacks up against frequently-referenced tags with charts!</br>The scatterplot helps visualize the posting frequency of the tag, how those posts are ranked, and any relation between the word count of a post and it's score.</br></br></br></br></br></br></br></p>
+							<p><span class="image left"><img src="images/tag/barchart.png" alt="" /></span></br></br></br></p>
+							<p><span class="image left"><img src="images/tag/similar.png" alt="" /></span><h4>Similar Tags</h4>Using an algorithim similar to the Term Frequency - Inverse Document Frequency (TF-IDF) algorithm, TAG will rank tags based on similarity to the query. This is helpful to find tags related to the query. The two columns in the analyzed data help differentiate if a tag was ranked similar because it is very popular across the dataset (TF) versus tags that occupy a niche that overlaps with the query (IDF).</p>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

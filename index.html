@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Hyperspace by HTML5 UP</title>
+		<title>Oliver Pardi: Portfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -19,10 +19,12 @@
 				<div class="inner">
 					<nav>
 						<ul>
-							<li><a href="#intro">Welcome</a></li>
-							<li><a href="#one">Who we are</a></li>
-							<li><a href="#two">What we do</a></li>
-							<li><a href="#three">Get in touch</a></li>
+							<li><a href="#h_intro">Oliver Pardi: Portfolio</a></li>
+							<li><a href="#h_productivity">Productivity Software</a></li>
+                            <li><a href="#h_engine">Game Engine</a></li>
+							<li><a href="#h_videogames">Games</a></li>
+							<li><a href="#h_animation">3D Animation</a></li>
+							<li><a href="#h_links">Contact</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -31,78 +33,201 @@
 		<!-- Wrapper -->
 			<div id="wrapper">
 
-				<!-- Intro -->
-					<section id="intro" class="wrapper style1 fullscreen fade-up">
+
+
+
+				<!-- H_Intro -->
+					<section id="h_intro" class="wrapper style1 fullscreen fade-up">
 						<div class="inner">
-							<h1>Hyperspace</h1>
-							<p>Just another fine responsive site template designed by <a href="http://html5up.net">HTML5 UP</a><br />
-							and released for free under the <a href="http://html5up.net/license">Creative Commons</a>.</p>
+							<h1>Oliver Pardi</h1>
+							<p>Software Engineer<br/>
+                            Data Analyst<br/>
+                            3D Technical Artist</p>
 							<ul class="actions">
-								<li><a href="#one" class="button scrolly">Learn more</a></li>
+								<li><a href="#h_productivity" class="button scrolly">View Work</a></li>
 							</ul>
 						</div>
 					</section>
 
-				<!-- One -->
-					<section id="one" class="wrapper style2 spotlights">
+				<!-- H_Productivity -->
+					<section id="h_productivity" class="wrapper style2 fade-up">
+						<div class="inner">
+							<h2>Productivity Software</h2>
+							<p>Projects to aid productivity and observe trends from raw data.</br> Plying algorithms, optimization, and data visualization tools such as MatPlotLib and Obsidian to meet the requirements of clients.</p>
+							<div class="features">
+								<section>
+									<span class="icon solid major fa-desktop"></span>
+									<h3>Horizon</h3>
+									<h4>Workload Visualizer</h4>
+									<p>Lightweight GUI for keeping track of tasks and finances</p>
+									<ul class="actions">
+										<li><a href="horizon.html" class="button">Documentation</a></li>
+										<li><a href="TODO.html" class="button">Code</a></li>
+									</ul>
+									<a href="horizon.html" class="image"><img href="horizon.html" src="images/horizon/full_view.png" width="420" alt="" data-position="center center"/></a>
+								</section>
+								<section>
+									<span class="icon solid major fa-link"></span>
+									<h3>TAG</h3>
+									<h4>Tag Analysis Generator</h4>
+									<p>Tag analyzer for datasets with millions of posts</p>
+									<ul class="actions">
+										<li><a href="tag.html" class="button">Documentation</a></li>
+										<li><a href="TODO.html" class="button">Code</a></li>
+									</ul>
+									<a href="tag.html" class="image"><img href="tag.html" src="images/tag/dataviz_small.jpg" width="420" alt="" data-position="center center"/></a>
+								</section>
+							</div>
+						</div>
+					</section>
+
+               <!-- H_Engine -->
+					<section id="h_engine" class="wrapper style1 spotlights">
 						<section>
-							<a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
+							<a href="#" class="image"><img src="images/games/box2d.png" alt="" data-position="center center" /></a>
 							<div class="content">
 								<div class="inner">
-									<h2>Sed ipsum dolor</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+									<h2>Revilo</h2>
+									<h4>Performant 2D Minimalist Video Game Engine</h4>
+									<ul>
+                                        <li>C++ core</li>
+                                        <li>Lua guest/scripting language</li>
+                                        <li>GLM math library</li>
+                                        <li>RapidJSON file loading</li>
+                                        <li>SDL input handling and audio</li>
+                                        <li>Box2D physics engine</li>
+                                    </ul>
 									<ul class="actions">
-										<li><a href="hello.html" class="button">Hello HTML</a></li>
+										<li><a href="https://eecs498-game-engine.github.io/" class="button">Developer Documentation</a></li>
+                                        <li><a href="https://youtu.be/03Ee2F06UHk" class="button">Video</a></li>
+                                        <li><a href="https://github.com/pardio1/ReviloEngine" class="button">Code</a></li>
 									</ul>
 								</div>
 							</div>
 						</section>
 						<section>
-							<a href="#" class="image"><img src="images/pic02.jpg" alt="" data-position="top center" /></a>
+							<a href="#" class="image"><img src="images/games/cc_logo.png" alt="" data-position="center center" /></a>
 							<div class="content">
 								<div class="inner">
-									<h2>Feugiat consequat</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+									<h2>Code Clicker</h2>
+									<h4>2D Clicker/Idle/Incremental Game</h4>
+									<p>A game built in Revilo!</br>Click to write lines of code on your computer, buy upgrades, and enjoy the Flash-style animations as you upgrade your setup!</p>
 									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
+										<li><a href="TODO.html" class="button">Download</a></li>
+                                        <li><a href="TODO.html" class="button">Gameplay</a></li>
 									</ul>
 								</div>
+                                <button type="button" class="collapsible">Expand</button>
+                                <div class="content-collapsible">
+                                    <ul>
+                                        <li><p>By Oliver Pardi</p></li>
+			                            <li><p>Game engine: Revilo (also made by me)!</p></li>
+                                        <li><p>I produced the art, design, and scripting during a two-day game jam.</p></li>
+		                            </ul>
+                                </div>
+							</div>
+						</section>
+                    </section>
+
+				<!-- H_VideoGames -->
+					<section id="h_videogames" class="wrapper style1 spotlights">
+						<section>
+							<a href="#" class="image"><img src="images/games/zelda.png" alt="" data-position="center center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Zelda (1986) Remake</h2>
+									<h4>2D Top-down Action-Adventure</h4>
+									<p>A from-scratch implementation of the first dungeon (and a custom level) in this NES classic!</p>
+									<ul class="actions">
+										<li><a href="https://pardio1.itch.io/zelda-clone" class="button">Play in Browser</a></li>
+
+									</ul>
+								</div>
+                                <button type="button" class="collapsible">Expand</button>
+                                <div class="content-collapsible">
+                                  <ul>
+                                    <li><p>By Zheng Luo and Oliver Pardi</p></li>
+			                        <li><p>Game engine: Unity</p></li>
+			                        <li><p>Classic Game: I was responsible for the map-based logic, such as room transitions, locked doors, enemy spawning, pushable blocks, and pathing over water tiles. I also implemented the bomb item and helped implement audio.</p></li>
+			                        <li><p>Custom Level: I contributed the scripting and 3D visuals for the second, third, and fourth rooms.</p></li>
+		                          </ul>
+                                </div>
 							</div>
 						</section>
 						<section>
-							<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
+							<a href="#" class="image"><img src="images/games/tbd_logo.png" alt="" data-position="top center" /></a>
 							<div class="content">
 								<div class="inner">
-									<h2>Ultricies aliquam</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+									<h2>The Box Dimension</h2>
+									<h4>3D Isometric Turn-based Action-Adventure</h4>
+									<p>Play as a cat having an imaginative adventure inside a series of cardboard boxes!</p>
 									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
+										<li><a href="https://pardio1.itch.io/catlike" class="button">Play in Browser</a></li>
+                                        <li><a href="https://pardio1.itch.io/catlike" class="button">Trailer</a></li>
 									</ul>
 								</div>
+                                <button type="button" class="collapsible">Expand</button>
+                                <div class="content-collapsible">
+                                  <ul>
+                                    <li> <p>By Braden Burns, Nikki Hess, Ryder Spees, Oliver Pardi, and Anthony Vanlian</p></li>
+			                        <li><p>Game engine: Unity</p></li>
+				                    <li><p>I was the lead engine tool developer, 3D animator, and marketer:</p></li>
+				                    <ul>
+					                    <li><p>Engine Tool Developer: I wrote the underlying C# scripting for the core game: level data types, level transitions, grid logic, as well as abstract implementations of player and enemy movement.</p></li>
+					                    <li><p>3D Animator: I animated and integrated the rat, dog, robot, and cat (except for the cat walk cycle) characters.</p></li>
+					                    <li><p>Marketing: I published the game to multiple websites (IndieDB, TIGSource, Itch.io, and GameJolt) alongside promotional text, images, and a video trailer produced by fellow team members.</p></li>
+				                    </ul>
+				                  </ul>
+                                </div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image"><img src="images/games/mw_logo.png" alt="" data-position="25% 25%" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Manual Wiping</h2>
+									<h4>3D First-person Driving Simulator</h4>
+									<p>Point your mouse and interact with controls about a vehicle's dashboard! Utilize window wipers to navigate a dusty landscape!</p>
+									<ul class="actions">
+										<li><a href="https://pardio1.itch.io/manual-wiping" class="button">Play in Browser</a></li>
+									</ul>
+								</div>
+                                <button type="button" class="collapsible">Expand</button>
+                                <div class="content-collapsible">
+                                <ul>
+                                 <li> <p>By Oliver Pardi</p></li>
+			                     <li><p>Game engine: Unity</p></li>
+				                 <li><p>I was responsible for the art, sound, design, and scripting. This included incorporating permissive external assets such as sound effects and HD textures to speed up development. I also refined the game with playtester feedback.</p></li>
+				
+				</ul>
+                                </div>
 							</div>
 						</section>
 					</section>
 
-				<!-- Two -->
-					<section id="two" class="wrapper style3 fade-up">
+
+
+
+				<!-- H_Animation -->
+					<section id="h_animation" class="wrapper style3 fade-up">
 						<div class="inner">
-							<h2>What we do</h2>
-							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
+							<h2>3D Animation Work</h2>
+							<p>Models, rigs, animations. Experience integrating 3D assets as part of a pipeline for real-time renderers/game engines.</p>
 							<div class="features">
 								<section>
 									<span class="icon solid major fa-code"></span>
-									<h3>Lorem ipsum amet</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									<h3>Roundhouse-kicking Dog</h3>
+									<p>(gif)</p>
 								</section>
 								<section>
 									<span class="icon solid major fa-lock"></span>
-									<h3>Aliquam sed nullam</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									<h3>Claymore Roomba</h3>
+									<p>(targeting gif) (rumbling/shaking tiles when readying attack)</p>
 								</section>
 								<section>
 									<span class="icon solid major fa-cog"></span>
-									<h3>Sed erat ullam corper</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
+									<h3>Cat</h3>
+									<p>(falling, intro anim, attacking, meow). (break) Animations by Me. (break) Model provided by OmbuArts (link).</p>
 								</section>
 								<section>
 									<span class="icon solid major fa-desktop"></span>
@@ -126,8 +251,8 @@
 						</div>
 					</section>
 
-				<!-- Three -->
-					<section id="three" class="wrapper style1 fade-up">
+				<!-- H_Links -->
+					<section id="h_links" class="wrapper style1 fade-up">
 						<div class="inner">
 							<h2>Get in touch</h2>
 							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>

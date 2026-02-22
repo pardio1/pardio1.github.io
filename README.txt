@@ -10,7 +10,7 @@ Credits:
 	Icons:
 		Font Awesome (fontawesome.io)
 
-	Other:
+	Libraries:
 		jQuery (jquery.com)
 		Scrollex (github.com/ajlkn/jquery.scrollex)
 		Responsive Tools (github.com/ajlkn/responsive-tools)
